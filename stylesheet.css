@@ -1,0 +1,133 @@
+.pic1center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+.list1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 4mm;
+    padding: 20px;
+    margin: 40px;
+    border: 2px dashed black;
+}
+#list {
+    font-size: 18px;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    opacity: 90%;
+}
+
+.listu {
+    font-size: 18px;
+    color: black;
+    padding: auto;
+    display: inline-block;
+    opacity: 90%;
+    background-color: transparent;
+}
+.list2 {
+    padding: 20px;
+    margin: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px dashed black;
+}
+
+
+#link:link {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+}
+#link:visited {
+    color:gray;
+    background-color: red;
+    text-decoration: none;
+    padding: 15px 25px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+}
+#link:hover {
+    color: blue;
+    background-color: red;
+    text-decoration: underline;
+}
+#link:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#chp:link, #chp1:active {
+    color: red;
+}
+#chp:hover, #chp1:visited {
+    color:green;
+}
+.title {
+    background-image: url(logo.png);
+    background-position: top;
+    background-size: 15%;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 150px;
+    font-size: 35px;
+}
+
+#mail:link, #mail:visited {
+    color:aqua;
+    background-color: transparent;
+}
+#mail:hover, #mail:active {
+    color: aqua;
+    background-color: transparent;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 15px;
+}
+table {
+    border-spacing: 5px;
+    width: 70%;
+    text-align: left;
+    color: white;
+}
+
+#tb1 {
+    background-color: blueviolet;
+}
+
+#tb1 tr:nth-child(even){
+    background-color: black;
+}
+#tb1 tr:nth-child(odd){
+    background-color: tomato;
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.lim {
+   float: left; 
+   padding: 4px;
+}
